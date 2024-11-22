@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background: red;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#navbarSupportedContent a {
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid white;
+}
+
+#navbarSupportedContent button {
+  background: white;
+  border: 1.5px solid black;
+  border-radius: 21px;
+  height: 41px;
+  font-weight: bold;
+  color: black;
+  
+}
+#log-out:hover{
+color: white;
+background: red;
+border: 2px solid white;
+}
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------Home--------*/
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(/images/Background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+}
+
+#home h1 {
+  font-size: 100px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: "Faster One", system-ui;
+}
+
+#home p {
+  font-size: 18px;
+  color: white;
+}
+
+#home a {
+  background-color: rgba(0, 0, 0, 0.415);
+  color: white;
+  width: 90px;
+  height: 50px;
+  padding-top: 9px;
+  padding-left: 17px;
+  border: 3px solid red;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+#home a:hover {
+  background-color: black;
+  color: red;
+  text-decoration: underline;
+}
+
+/*-----------About--------*/
+#about {
+  background-color: black;
+  color: white;
+}
+
+#about h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#about a {
+  width: 90px;
+  height: 50px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.415);
+  border: 3px solid red;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+#about a:hover {
+  background-color: black;
+  color: red;
+  text-decoration: underline;
+}
+
+/*---------products---------*/
+#products h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.card {
+  border: 5px solid red;
+  border-radius: 5px;
+}
+
+.card-body {
+  background-color: red;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-body button {
+  background-color: black;
+  color: white;
+  border: 5px dotted black;
+  width: 100px;
+  border-radius: 3px;
+}
+.buttons:hover{
+background-color: white;
+color: black;
+border-style:double;
+}
+/*-----------contact------------*/
+#contact {
+  width: 100%;
+  min-height: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+#contact h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#lp1 {
+  border: 2px solid red;
+  padding: 30px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#lp2 {
+  padding-left: 10%;
+}
